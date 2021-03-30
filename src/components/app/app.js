@@ -27,7 +27,7 @@ const App = () => {
                 path="/cart-page"
                 component={CartPage} />
         </Switch>
-    </div>)
-}
+    </div>);
+};
 
 export default App;
