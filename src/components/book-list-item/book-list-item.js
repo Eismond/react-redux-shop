@@ -1,8 +1,12 @@
 import React from 'react';
 
-const BookListItem = () => {
+import './book-list-item.css';
+
+const BookListItem = ({ book }) => {
+    const { title, author } = book;
     return (<div>
-        BookListItem
+        <span>{title}</span>
+        <span>{author}</span>
     </div>);
 };
 
